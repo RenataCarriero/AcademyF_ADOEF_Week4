@@ -1,0 +1,13 @@
+﻿--CREATE DATABASE Ticketing
+
+
+
+CREATE TABLE Ticket(
+ID INT IDENTITY(1,1) primary key,
+Descrizione VARCHAR(500),
+Data DATETIME,
+Username VARCHAR(100),
+Stato VARCHAR(10),
+--constraint check_dates check (Insert_date >= GETDATE()),
+constraint status_value CHECK (status in ('NEW', 'ONGOING', 'RESOLVED'))
+)
