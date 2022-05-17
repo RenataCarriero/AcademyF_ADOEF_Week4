@@ -4,5 +4,10 @@ using AcademyF_ADOEF.DisconnectedMode;
 Console.WriteLine("Ado.Net disconnected mode DEMO");
 
 //AdoNetDemoDisconnected.FillDataSet();
-AdoNetDemoDisconnected.InsertRowDemo();
+//AdoNetDemoDisconnected.InsertRowDemo();
+//AdoNetDemoDisconnected.UpdateRowDemo();
+//AdoNetDemoDisconnected.DeleteRowDemo();
+//AdoNetDemoDisconnected.MultiTabelleDemo();
+AdoNetDemoDisconnected.ConstraintDemo();
+
 
