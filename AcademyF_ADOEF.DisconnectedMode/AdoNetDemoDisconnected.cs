@@ -352,7 +352,7 @@ namespace AcademyF_ADOEF.DisconnectedMode
 
                             for (int i = 0; i < arrayColonne.Length; i++)
                             {
-                                Console.WriteLine($"Nome colonna: " + arrayColonne[i].ColumnName + " unique");
+                                Console.WriteLine($"Nome colonna: " + arrayColonne[i].ColumnName + " unique " + vincoloUnique.ConstraintName);
                             }
                         }
                         else if (constraint is ForeignKeyConstraint)
@@ -362,7 +362,7 @@ namespace AcademyF_ADOEF.DisconnectedMode
 
                             for (int i = 0; i < arrayColonne.Length; i++)
                             {
-                                Console.WriteLine($"Nome colonna: " + arrayColonne[i].ColumnName + " fk");
+                                Console.WriteLine($"Nome colonna: " + arrayColonne[i].ColumnName + " fk " + vincoloFK.ConstraintName);
                             }
                         }
 
