@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using EsercizioFluentApiCAR;
+
 Console.WriteLine("Hello, World!");
 
 
@@ -10,3 +12,7 @@ Console.WriteLine("Hello, World!");
 //    Targa (chiave primaria), numero posti, marca, data immatricolazione
 
 // Realizzare il database con Entity Framework e Fluent API
+using (var ctx = new Context())
+{
+    ctx.Database.EnsureCreated();
+}
