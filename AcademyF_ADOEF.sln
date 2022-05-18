@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPostDataAnnotation", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioDataAnnCAR", "EsercizioDataAnnCAR\EsercizioDataAnnCAR.csproj", "{64C0DCBB-E07D-4322-ABC3-FED02AB28F69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimoProgettoEF_FA", "PrimoProgettoEF_FA\PrimoProgettoEF_FA.csproj", "{DE8632B6-FC32-4D5E-94D2-FCFDAADF1779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsercizioFluentApiCAR", "EsercizioFluentApiCAR\EsercizioFluentApiCAR.csproj", "{751DA58D-42F2-4C6B-BED2-DC5627750271}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{64C0DCBB-E07D-4322-ABC3-FED02AB28F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64C0DCBB-E07D-4322-ABC3-FED02AB28F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64C0DCBB-E07D-4322-ABC3-FED02AB28F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8632B6-FC32-4D5E-94D2-FCFDAADF1779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8632B6-FC32-4D5E-94D2-FCFDAADF1779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8632B6-FC32-4D5E-94D2-FCFDAADF1779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8632B6-FC32-4D5E-94D2-FCFDAADF1779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751DA58D-42F2-4C6B-BED2-DC5627750271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751DA58D-42F2-4C6B-BED2-DC5627750271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751DA58D-42F2-4C6B-BED2-DC5627750271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751DA58D-42F2-4C6B-BED2-DC5627750271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
