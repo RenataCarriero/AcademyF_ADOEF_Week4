@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioEreditarieta2", "Ese
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioEreditarieta3", "EsempioEreditarieta3\EsempioEreditarieta3.csproj", "{CB68F2AD-8619-454D-8DF8-4DEFB11D488A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempioEreditarietaFA", "EsempioEreditarietaFA\EsempioEreditarietaFA.csproj", "{8575EF47-862E-4CAA-962A-D99C792BB952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermercato", "Supermercato\Supermercato.csproj", "{7D1CED18-4455-4294-A48D-4FE29D6DDD1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{CB68F2AD-8619-454D-8DF8-4DEFB11D488A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB68F2AD-8619-454D-8DF8-4DEFB11D488A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB68F2AD-8619-454D-8DF8-4DEFB11D488A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8575EF47-862E-4CAA-962A-D99C792BB952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8575EF47-862E-4CAA-962A-D99C792BB952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8575EF47-862E-4CAA-962A-D99C792BB952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8575EF47-862E-4CAA-962A-D99C792BB952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1CED18-4455-4294-A48D-4FE29D6DDD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1CED18-4455-4294-A48D-4FE29D6DDD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1CED18-4455-4294-A48D-4FE29D6DDD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1CED18-4455-4294-A48D-4FE29D6DDD1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
