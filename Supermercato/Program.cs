@@ -26,3 +26,10 @@ Console.WriteLine("Hello, World!");
 //--
 //CREO IL REPOSITORY --  
 //CREO L'INTERFACCIA CON L'UTENTE
+
+
+bool continua = true;
+while (continua)
+{
+    continua = GestoreSupermercato.SchermoMenu();
+}

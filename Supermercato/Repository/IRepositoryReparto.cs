@@ -1,0 +1,14 @@
+﻿using Supermercato.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Supermercato.Repository
+{
+    public interface IRepositoryReparto : IRepository<Reparto>
+    {
+        public Reparto? GetByNumero(int numero);
+    }
+}
